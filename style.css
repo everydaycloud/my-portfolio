@@ -1,0 +1,186 @@
+body {
+    background-color: #FAEFE0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #282A29;
+}
+
+#logo {
+    height: 23px;
+}
+
+a {
+    color: #282A29;
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    
+}
+
+.nav {
+    width: vw;
+    height: 50px;
+    border-bottom: 2px solid #282A29;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.menu {
+    text-align: right;
+    color: #282A29;
+    font-size: 23px; 
+}
+
+.menu-items {
+    margin-left: 20px;  
+}
+
+#intro-section {
+    height: 680px;
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+    justify-content:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0;
+    padding-left: 5%;
+    font-size: 60px;
+
+}
+
+#button1 {
+    background-color: #FAEFE0;
+    color: #282A29;
+    height: 45px;
+    width: 200px;
+    font-size: 16px;
+    border: #282A29 solid 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#button1:hover {
+    background-color: #282A29;
+    color: #fff;
+}
+
+#profilepic {
+    margin-top: 175px;
+}
+
+#about-me {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 750px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+#p-aboutme {
+    font-size: 21px;
+    font-weight: bold;
+    width: 75%;
+    line-height: 1.6;
+}
+
+#button-aboutme {
+    background-color: #FAEFE0;
+    color: #282A29;
+    height: 45px;
+    width: 200px;
+    font-size: 16px;
+    border: #282A29 solid 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 30px;
+}
+
+#button-aboutme:hover {
+    background-color: #282A29;
+    color: #fff;
+}
+
+#portfolio {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 300px;
+}
+
+.buttons-portfolio {
+    background-color: #FAEFE0;
+    color: #282A29;
+    height: 45px;
+    width: 200px;
+    font-size: 16px;
+    border: #282A29 solid 1px;
+    margin-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.buttons-portfolio:hover {
+    background-color: #282A29;
+    color: #fff;
+}
+
+#wordpress-h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#wordpressPortfolioImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 570px;
+  }
+
+.portfolioImages {
+    height: 200px;
+    aspect-ratio: 1.6;
+    object-fit: cover;
+}
+
+.portfolioImages:hover {
+    background-color: #282A29;
+    opacity: 50%;
+}
+
+figcaption {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#footer {
+    width: vw;
+    height: 50px;
+    border-top: 2px solid #282A29;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+}
